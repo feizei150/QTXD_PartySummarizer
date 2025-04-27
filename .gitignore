@@ -1,0 +1,31 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+.env/
+
+# 不需要上传的本地配置文件
+*.log
+*.sqlite3
+*.db
+
+# 忽略 IDE 配置文件（如 VSCode 和 PyCharm）
+.vscode/
+.idea/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 如果您的 Notion 配置文件或其他机密数据文件需要保密，您也可以将其列在这里
+*.env
+
+# 忽略临时文件
+*.bak
+*.swp
+
+# 对于上传到 GitHub 的大文件，通常会在此列出（如果有）
+# 如有需要上传某些文件夹，则需要去掉对应条目
